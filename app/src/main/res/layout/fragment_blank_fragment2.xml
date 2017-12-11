@@ -5,10 +5,9 @@
     tools:context="layout.BlankFragment2">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="第二人碎片"
-        tools:ignore="HardcodedText" />
 
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </FrameLayout>
